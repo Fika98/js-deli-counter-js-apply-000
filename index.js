@@ -2,8 +2,10 @@ var katzDeliLine = [];
 
 function takeANumber(numbers) {
   line.push(numbers)
-  return "Welcome, " + numbers + ". You are number " + line.length + " in line."
+  return "you are number, " + numbers + ". You are number " + line.length + " in line."
 }
+
+
 
 
 
