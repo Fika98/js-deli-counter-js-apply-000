@@ -1,9 +1,12 @@
 var katzDeliLine = [];
 
-function takeANumber(line, name) {
-  line.push(name)
-  return "Welcome, " + name + ". You are number " + line.length + " in line."
+function takeANumber(numbers) {
+  line.push(numbers)
+  return "Welcome, " + numbers + ". You are number " + line.length + " in line."
 }
+
+
+
 
 function nowServing(line) {
   if(!line.length) {
@@ -23,7 +26,7 @@ function currentLine(line){
   }
   return "The line is currently: " +nameAndNumbers.join(', ')
 }
-takeANumber(katzDeliLine, "Ada"); // "Welcome, Ada. You are number 1 in line."
+takeANumber(katzDeliLine, ""); // "Welcome, Ada. You are number 1 in line."
 takeANumber(katzDeliLine, "Grace"); // "Welcome, Grace. You are number 2 in line."
 takeANumber(katzDeliLine, "Kent"); // "Welcome, Kent. You are number 3 in line."
 
